@@ -1,0 +1,406 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300;400;500&family=Open+Sans:wght@300;400;700&display=swap');
+*{
+
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background-color: #f2ece5;
+}
+
+/*Fonts*/
+
+.typeBotoneraMenu {
+	color: #99938c;
+	font-family: 'Barlow Condensed', sans-serif;
+	font-weight: 300;
+	font-size: 18px;
+}
+
+
+.typeBotoneraMenu:hover {
+	color: #99938c;
+	font-weight: 500;
+}
+
+.typeLandingTitulo{
+	color: #FFFFFF;
+	letter-spacing: 3px;
+	font-family: 'Barlow Condensed', sans-serif;
+	font-weight: 300;
+	font-size: 40px
+}
+
+.typeLandingSubtitulo {
+	font-family: 'Barlow Condensed', sans-serif;
+	color: #FFFFFF;
+	font-size: 18px;
+	font-weight: 300;
+	letter-spacing: 2px;
+}
+
+.typeSubtituloSeccion2 {
+	color: #000000;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 15px;
+}
+
+.typeTitulo {
+	color: #766e63;
+	letter-spacing: 3px;
+	font-weight: 300;
+	font-family: 'Barlow Condensed', sans-serif;
+	font-size: 35px;
+}
+
+.typeSubtitulo {
+	font-family: 'Open Sans', sans-serif;
+	color: #d1b3a2;
+	font-size: 18px;
+	font-weight: 400;
+}
+
+.typeTituloProductos{
+	color: #766e63;
+	letter-spacing: 3px;
+	font-weight:400;
+	font-family: 'Barlow Condensed', sans-serif;
+	font-size: 25px;
+}
+
+.typeSubtituloProductos {
+	font-family: 'Open Sans', sans-serif;
+	color: #d1b3a2;
+	font-size: 15px;
+	font-weight: 400;
+}
+
+.typeParrafos {
+	font-family: 'Open Sans', sans-serif;
+	color: #c9a693;
+	font-size: 15px;
+}
+
+.marginLeftTextos {
+
+	margin-left: 40px
+}
+
+/*Header*/
+
+#header {
+	min-height: 120px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	border-bottom: 3px solid #d3c5b6;
+	ul{
+		list-style: none;
+	}
+	li{
+		display: inline-block;
+		padding: 0 10px;
+		margin-right: 20px;
+		a{
+			text-decoration: none;
+			padding: 4px;
+		}
+	}
+}
+
+.navbar-collapse {
+	flex-grow: 0;
+}
+
+.navbar-expand-lg {
+	width: 100%;
+	justify-content: space-between;
+}
+
+@media all and (max-width: 992px){
+
+.centrarMenu {
+
+	text-align: center;
+	border-top: 0.1px solid #d3c5b6;
+}
+}
+
+/*Header - Logo*/
+
+.logo {
+    width: 190px;
+    height: 62px;
+}
+
+/*Sección 1 - Banner Principal*/
+
+#bannerPrincipal{
+	margin: auto;
+}
+
+.banner {
+	min-height: 85vh;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+
+	background-image: url("../multimedia/planta3.jpeg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.button{
+	display: inline-block;
+	text-decoration: none;
+	padding: 10px;
+	background-color: transparent;
+	background-repeat:no-repeat;
+
+    overflow: hidden;
+    border: 2px 2px 2px 2px;
+    border-color: #FFFFFF;
+    border-style: solid;
+}
+
+.button:hover {
+    transform: translateY(-3px); 
+    transition: all cubic-bezier(0.215, 0.610, 0.355, 1);
+    cursor:pointer;
+    text-decoration: none;
+    color:#FFFFFF;
+}
+
+/*Seccion 2 - Imágenes*/
+
+#imagenesSeccion2 {
+	min-height: 50vh;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: flex-start;
+	margin-top: 50px;
+	img {
+		width: 80%;
+	}
+}
+
+/*Seccion 2 - Texto */
+
+#textoCentral{
+	text-align:center;
+	margin: 40px 10px 40px 10px;
+	p{
+		display: inline-block;
+		text-align:center;
+		padding: 30px;
+		max-width: 550px;
+		margin-top: 5px;
+	}
+}
+
+@media all and (max-width: 750px){
+#textoCentral{
+	margin: 20px 10px 20px 10px;
+}
+}
+
+@media all and (max-width: 650px){
+#textoCentral{
+	margin: 10px 10px 10px 10px;
+}
+}
+
+@media all and (max-width: 550px){
+#textoCentral{
+	margin: 5px 10px 5px 10px;
+}
+}
+
+/*Seccion 3 - Tipos Plantas */
+
+.bannerTiposPlantas {
+	min-height: 80vh;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	width: 100%;
+
+	background-image: url("../multimedia/bannertipoplantas.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.bannerTiposPlantas2 {
+	display: flex;
+	flex-direction: row;
+	overflow: hidden;
+	min-height: 60vh;
+	background-color: #FFFFFF;
+	background-position: 50% 50%;
+}
+
+.bannerPlantasInterior{
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	background-image: url("../multimedia/plantainterior.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	width: 50%;
+	margin: 30px;
+	a{
+		text-decoration:none;
+	}
+	a:hover {
+    transform: translateY(-10px); 
+    transition: all cubic-bezier(0.215, 0.610, 0.355, 1);
+    cursor:pointer;
+    text-decoration: none;
+    font-weight: 500;
+	}
+}
+
+.bannerPlantasExterior{
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	background-image: url("../multimedia/plantaexterior.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	margin: 30px;
+	width: 50%;
+	a{
+		text-decoration:none;
+	}
+	a:hover {
+    transform: translateY(-10px); 
+    transition: all cubic-bezier(0.215, 0.610, 0.355, 1);
+    cursor:pointer;
+    text-decoration: none;
+	}
+}
+
+.textosBannerDoble {
+	margin-bottom: 20px;
+}
+
+/*Seccion 4 - Galería */
+
+.textoGaleria{
+	min-height: 50vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	background-image: url("../multimedia/bannergaleria.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+#galeria .button{
+	margin-top: 20px;
+}
+
+/*Footer*/
+
+footer {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 200px;
+	background-color: #766E63;
+	.typeLandingSubtitulo {
+		font-size: 20px;
+		padding: 10px;
+	}
+	.button {
+		padding: 5px;
+	}
+}
+
+/*Hoja Comprar - Banner Principal*/
+
+.bannerComprar {
+	min-height: 50vh;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	background-image: url("../multimedia/planta3.jpeg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+/*Hoja Galería - Landing Principal*/
+
+.bannerGaleria {
+	min-height: 50vh;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	background-image: url("../multimedia/planta3.jpeg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.cambioFoto {
+	filter: brightness(100%);
+	transition: 0.3s;
+}
+
+.cambioFoto:hover {
+	filter: brightness(110%);
+}
+
+.galeriaFotos img{
+	width: 100%;
+	padding: 20px;
+}
+
+/*Hoja Envíos - Banner Principal*/
+
+.bannerEnvios {
+	min-height: 50vh;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	background-image: url("../multimedia/planta3.jpeg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+/*Hoja Contacto - Banner Principal*/
+
+.bannerContacto {
+	min-height: 50vh;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+
+	background-image: url("../multimedia/planta3.jpeg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+#formulario {
+	display: flex;
+	flex-direction: column;
+	min-height: 100px;
+	justify-content: center;
+	padding: 15px;
+}
+
+.marginSetear {
+	margin: 5px;
+}

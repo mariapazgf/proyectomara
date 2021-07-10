@@ -291,9 +291,37 @@ body{
 #textoCentral{
 
 	text-align:center;
-	margin: 20px 10px 40px 10px;
+	margin: 40px 10px 40px 10px;
 }
 
+
+@media all and (max-width: 750px){
+
+#textoCentral{
+
+	margin: 20px 10px 20px 10px;
+}
+
+}
+
+
+@media all and (max-width: 650px){
+
+#textoCentral{
+
+	margin: 10px 10px 10px 10px;
+}
+
+}
+
+@media all and (max-width: 550px){
+
+#textoCentral{
+
+	margin: 5px 10px 5px 10px;
+}
+
+}
 
 #textoCentral p{
 	display: inline-block;
