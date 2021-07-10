@@ -272,36 +272,17 @@ body{
 
 #imagenesSeccion2 {
 
-	min-height: 140vh;
+	min-height: 50vh;
 	display: flex;
 	flex-direction: row;
 	justify-content: space-around;
 	align-items: flex-start;
-
-}
-
-#imagenesSeccion2 .imagen1 {
-	margin-top: 40px;
-
+	margin-top: 50px;
 
 
 }
 
-#imagenesSeccion2 .imagen2 {
 
-	align-self: flex-end;
-
-
-
-}
-
-#imagenesSeccion2 .imagen3 {
-
-	align-self: center;
-
-
-
-}
 
 
 /*Seccion 2 - Texto */
@@ -310,7 +291,7 @@ body{
 #textoCentral{
 
 	text-align:center;
-	margin: 80px 10px 80px 10px;
+	margin: 20px 10px 40px 10px;
 }
 
 
