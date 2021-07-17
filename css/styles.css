@@ -10,28 +10,19 @@ body{
 	background-color: #f2ece5;
 }
 
-
 /*Fonts*/
 
 .typeBotoneraMenu {
-
 	color: #99938c;
 	font-family: 'Barlow Condensed', sans-serif;
 	font-weight: 300;
 	font-size: 18px;
-
 }
-
 
 .typeBotoneraMenu:hover {
-
 	color: #99938c;
 	font-weight: 500;
-
-
-
 }
-
 
 .typeLandingTitulo{
 
@@ -42,7 +33,6 @@ body{
 	font-size: 40px
 }
 
-
 .typeLandingSubtitulo {
 
 	font-family: 'Barlow Condensed', sans-serif;
@@ -50,86 +40,55 @@ body{
 	font-size: 18px;
 	font-weight: 300;
 	letter-spacing: 2px;
-
 }
 
-
 .typeSubtituloSeccion2 {
-
-
 	color: #000000;
 	font-family: 'Open Sans', sans-serif;
 	font-size: 15px;
-
 }
 
 .typeTitulo {
-
 	color: #766e63;
 	letter-spacing: 3px;
 	font-weight: 300;
 	font-family: 'Barlow Condensed', sans-serif;
 	font-size: 35px;
-
 }
 
 .typeSubtitulo {
-
 	font-family: 'Open Sans', sans-serif;
 	color: #d1b3a2;
 	font-size: 18px;
 	font-weight: 400;
-
-
 }
 
 .typeTituloProductos{
-
 	color: #766e63;
 	letter-spacing: 3px;
 	font-weight:400;
 	font-family: 'Barlow Condensed', sans-serif;
 	font-size: 25px;
-
-
 }
 
-
 .typeSubtituloProductos {
-
-
 	font-family: 'Open Sans', sans-serif;
 	color: #d1b3a2;
 	font-size: 15px;
 	font-weight: 400;
-
-
-
 }
 
-
 .typeParrafos {
-
 	font-family: 'Open Sans', sans-serif;
 	color: #c9a693;
 	font-size: 15px;
-
 }
 
-
 .marginLeftTextos {
-
 	margin-left: 40px
 }
 
-
-
-
-
 /*Header*/
-
-
-
 
 #header{
 	min-height: 120px;
@@ -138,49 +97,31 @@ body{
 	justify-content: space-between;
 	align-items: center;
 	border-bottom: 3px solid #d3c5b6;
-
 }
 
-
-
 #header ul{
-
 	list-style: none;
-
 }
 
 #header li{
-
 	display: inline-block;
 	padding: 0 10px;
 	margin-right: 20px;
-
 }
-
 
 #header li a{
-
 	text-decoration: none;
 	padding: 4px;
-
 }
 
-
-
 .navbar-collapse {
-
 	flex-grow: 0;
 }
 
-
 .navbar-expand-lg {
-
 	width: 100%;
 	justify-content: space-between;
-
 }
-
-
 
 @media all and (max-width: 992px){
 
@@ -188,33 +129,21 @@ body{
 
 	text-align: center;
 	border-top: 0.1px solid #d3c5b6;
-
-
 }
 }
-
 
 /*Header - Logo*/
 
-
 .logo {
-
     width: 190px;
     height: 62px;
-
 }
 
-
-
-
-
 /*Sección 1 - Banner Principal*/
-
 
 #bannerPrincipal{
 	margin: auto;
 }
-
 
 .banner {
 
@@ -227,10 +156,7 @@ body{
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
-
 }
-
-
 
 .button{
 	display: inline-block;
@@ -243,7 +169,6 @@ body{
     border: 2px 2px 2px 2px;
     border-color: #FFFFFF;
     border-style: solid;
-
 }
 
 .button:hover {
@@ -254,56 +179,34 @@ body{
     color:#FFFFFF;
 }
 
-
-
-
-
-
 /*Seccion 2 - Imágenes*/
-
-
 
 #imagenesSeccion2 img{
     width: 80%;
-
-
-
 }
 
 #imagenesSeccion2 {
-
 	min-height: 50vh;
 	display: flex;
 	flex-direction: row;
 	justify-content: space-around;
 	align-items: flex-start;
 	margin-top: 50px;
-
-
 }
-
-
-
 
 /*Seccion 2 - Texto */
 
-
 #textoCentral{
-
 	text-align:center;
 	margin: 40px 10px 40px 10px;
 }
 
-
 @media all and (max-width: 750px){
 
 #textoCentral{
-
 	margin: 20px 10px 20px 10px;
 }
-
 }
-
 
 @media all and (max-width: 650px){
 
@@ -311,7 +214,6 @@ body{
 
 	margin: 10px 10px 10px 10px;
 }
-
 }
 
 @media all and (max-width: 550px){
@@ -320,7 +222,6 @@ body{
 
 	margin: 5px 10px 5px 10px;
 }
-
 }
 
 #textoCentral p{
@@ -329,18 +230,11 @@ body{
 	padding: 30px;
 	max-width: 550px;
 	margin-top: 5px;
-
-
 }
-
-
 
 /*Seccion 3 - Tipos Plantas */
 
-
-
 .bannerTiposPlantas {
-
 	min-height: 80vh;
 	display: flex;
 	flex-direction: row;
@@ -351,7 +245,6 @@ body{
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
-
 }
 
 .bannerTiposPlantas2 {
@@ -362,27 +255,18 @@ body{
 	min-height: 60vh;
 	background-color: #FFFFFF;
 	background-position: 50% 50%;
-
-
-
 }
 
 .bannerPlantasInterior{
-	
-
 	display: flex;
 	flex-direction: column;
 	justify-content: flex-end;
-
-
 	background-image: url("../multimedia/plantainterior.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
 	width: 50%;
 	margin: 30px;
-
-
 }
 
 

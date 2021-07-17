@@ -174,10 +174,11 @@ body{
     color:#FFFFFF;
 }
 
+
+
 /*Seccion 2 - Imágenes*/
 
 #imagenesSeccion2 {
-	min-height: 50vh;
 	display: flex;
 	flex-direction: row;
 	justify-content: space-around;
@@ -192,7 +193,7 @@ body{
 
 #textoCentral{
 	text-align:center;
-	margin: 40px 10px 40px 10px;
+	margin-top: 50px;
 	p{
 		display: inline-block;
 		text-align:center;
@@ -200,24 +201,6 @@ body{
 		max-width: 550px;
 		margin-top: 5px;
 	}
-}
-
-@media all and (max-width: 750px){
-#textoCentral{
-	margin: 20px 10px 20px 10px;
-}
-}
-
-@media all and (max-width: 650px){
-#textoCentral{
-	margin: 10px 10px 10px 10px;
-}
-}
-
-@media all and (max-width: 550px){
-#textoCentral{
-	margin: 5px 10px 5px 10px;
-}
 }
 
 /*Seccion 3 - Tipos Plantas */
@@ -243,6 +226,8 @@ body{
 	background-color: #FFFFFF;
 	background-position: 50% 50%;
 }
+
+
 
 .bannerPlantasInterior{
 	display: flex;
@@ -289,6 +274,19 @@ body{
 
 .textosBannerDoble {
 	margin-bottom: 20px;
+}
+
+@media all and (max-width: 570px){
+
+.bannerTiposPlantas2 {
+	flex-wrap: wrap;
+}
+.bannerPlantasInterior {
+	width: 100%;
+}
+.bannerPlantasExterior{
+	width: 100%;
+}
 }
 
 /*Seccion 4 - Galería */
@@ -361,6 +359,10 @@ footer {
 	filter: brightness(110%);
 }
 
+.galeriaFotos{
+	margin-bottom: 10px;
+
+}
 .galeriaFotos img{
 	width: 100%;
 	padding: 20px;
